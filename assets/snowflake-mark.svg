@@ -1,0 +1,26 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="snowyGradient" x1="16" y1="14" x2="112" y2="114" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7F2FF"/>
+      <stop offset="0.45" stop-color="#C9A6FF"/>
+      <stop offset="1" stop-color="#7D52FF"/>
+    </linearGradient>
+  </defs>
+  <circle cx="64" cy="64" r="58" fill="url(#snowyGradient)" fill-opacity="0.12" stroke="url(#snowyGradient)" stroke-opacity="0.36" stroke-width="2"/>
+  <path d="M64 20V108" stroke="url(#snowyGradient)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M26 42L102 86" stroke="url(#snowyGradient)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M26 86L102 42" stroke="url(#snowyGradient)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M64 20L55 33" stroke="url(#snowyGradient)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M64 20L73 33" stroke="url(#snowyGradient)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M64 108L55 95" stroke="url(#snowyGradient)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M64 108L73 95" stroke="url(#snowyGradient)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M26 42L42 42" stroke="url(#snowyGradient)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M26 42L34 57" stroke="url(#snowyGradient)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M102 86L86 86" stroke="url(#snowyGradient)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M102 86L94 71" stroke="url(#snowyGradient)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M26 86L34 71" stroke="url(#snowyGradient)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M26 86L42 86" stroke="url(#snowyGradient)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M102 42L86 42" stroke="url(#snowyGradient)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M102 42L94 57" stroke="url(#snowyGradient)" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="64" cy="64" r="8" fill="url(#snowyGradient)"/>
+</svg>

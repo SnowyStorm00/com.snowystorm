@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnowyStorm | Developer</title>
+    <meta name="description" content="SnowyStorm builds fun, polished web projects with personality. Explore Bellamori and Snowymon Dextracker.">
+    <meta name="theme-color" content="#090511">
+    <meta property="og:title" content="SnowyStorm">
+    <meta property="og:description" content="Fun, polished projects with personality.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="background-glow background-glow-left" aria-hidden="true"></div>
+    <div class="background-glow background-glow-right" aria-hidden="true"></div>
+
+    <header class="site-header">
+        <div class="brand">
+            <a class="brand-link" href="#top" aria-label="SnowyStorm home">
+                <img src="assets/snowflake-mark.svg" alt="" width="40" height="40">
+                <span>SnowyStorm</span>
+            </a>
+        </div>
+        <nav class="site-nav" aria-label="Primary">
+            <a href="#top">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle color theme">
+            <span class="theme-toggle-track">
+                <span class="theme-toggle-label theme-label-dark">Dark</span>
+                <span class="theme-toggle-label theme-label-light">Light</span>
+            </span>
+        </button>
+    </header>
+
+    <main id="top">
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow">Developer</p>
+                <h1 id="hero-title">SnowyStorm</h1>
+                <p class="hero-text">I make lots of dumb fun projects and a couple useful ones.</p>
+                <p class="hero-subtext">Professional when it needs to be, fun because it should be.</p>
+                <div class="hero-actions">
+                    <a class="primary-link" href="#projects">See Projects</a>
+                    <a class="secondary-link" href="#contact">Get In Touch</a>
+                </div>
+            </div>
+
+            <div class="hero-aside">
+                <div class="profile-strip" aria-label="Profile">
+                    <div class="avatar-ring">
+                        <img src="assets/avatar.png" alt="SnowyStorm avatar" class="avatar-image">
+                    </div>
+                    <div class="profile-copy">
+                        <p class="profile-name">SnowyStorm</p>
+                        <p class="profile-role">Developer</p>
+                    </div>
+                </div>
+                <div class="hero-meta" aria-label="Highlights">
+                    <span>fun, polished, inventive</span>
+                    <span>full-stack developer</span>
+                    <span>polyglot</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <div class="section-intro">
+                <p class="eyebrow">Projects</p>
+                <h2>Current Count: 2</h2>
+            </div>
+
+            <article class="project project-featured">
+                <div class="project-copy">
+                    <div class="project-meta">
+                        <span class="status-chip status-chip-dev">In Dev</span>
+                        <span class="stack-chip">HTML</span>
+                        <span class="stack-chip">CSS</span>
+                        <span class="stack-chip">JS</span>
+                        <span class="stack-chip">TS</span>
+                    </div>
+                    <h3>Snowymon Dextracker</h3>
+                    <p class="project-summary">Living dex tracker.</p>
+                    <p class="project-description">Combines a normal dex tracker with quick access to info on all the Pokemon, built for people who want the best of both worlds.</p>
+                    <a class="project-link" href="https://dextracker.snowymon.snowystorm.com/">Open Project</a>
+                </div>
+                <div class="project-visual project-visual-dex" aria-hidden="true">
+                    <img src="assets/dextracker.png" alt="" class="project-image">
+                </div>
+            </article>
+
+            <article class="project project-secondary">
+                <div class="project-copy">
+                    <div class="project-meta">
+                        <span class="status-chip status-chip-finished">Finished</span>
+                        <span class="stack-chip">HTML</span>
+                        <span class="stack-chip">CSS</span>
+                        <span class="stack-chip">JS</span>
+                    </div>
+                    <h3>Bellamori</h3>
+                    <p class="project-summary">Personal website for a friend.</p>
+                    <p class="project-description">A personal site made for my friend Morrigan. Hope you like it!</p>
+                    <a class="project-link" href="https://bellamori.snowystorm.com/">Open Project</a>
+                </div>
+                <div class="project-visual project-visual-bella" aria-hidden="true">
+                    <img src="assets/bellamori.png" alt="" class="project-image">
+                </div>
+            </article>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="section-intro">
+                <p class="eyebrow">Contact</p>
+                <h2>Want something built?</h2>
+                <p class="contact-intro">Send me a message or find me where I post stuff.</p>
+            </div>
+
+            <div class="contact-layout">
+                <form class="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/?submitted=true#contact">
+                    <input type="hidden" name="form-name" value="contact">
+                    <p class="hidden-field">
+                        <label>Do not fill this out if you're human: <input name="bot-field"></label>
+                    </p>
+                    <label class="input-group">
+                        <span>Name</span>
+                        <input type="text" name="name" autocomplete="name" required>
+                    </label>
+                    <label class="input-group">
+                        <span>Email</span>
+                        <input type="email" name="email" autocomplete="email" required>
+                    </label>
+                    <label class="input-group input-group-full">
+                        <span>What do you need?</span>
+                        <textarea name="message" rows="6" required></textarea>
+                    </label>
+                    <button type="submit" class="primary-link primary-button">Send Message</button>
+                    <p class="form-status" id="formStatus" aria-live="polite"></p>
+                </form>
+
+                <aside class="contact-links" aria-label="Social links">
+                    <a href="https://x.com/SnowyStorm00">X / Twitter</a>
+                    <a href="https://github.com/SnowyStorm00">GitHub</a>
+                    <a href="mailto:snowdm00@gmail.com">snowdm00@gmail.com</a>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>made by snow</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
