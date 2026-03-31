@@ -422,6 +422,10 @@ h3 {
     background: linear-gradient(135deg, #4c76ff, #83b0ff);
 }
 
+.status-chip-live {
+    background: linear-gradient(135deg, #2ecf8f, #119d67);
+}
+
 .stack-chip {
     background: var(--surface);
     color: var(--text-muted);
@@ -461,6 +465,10 @@ h3 {
 
 .project-visual-bella {
     box-shadow: 0 16px 40px rgba(32, 18, 63, 0.18);
+}
+
+.project-visual-identity {
+    box-shadow: 0 16px 40px rgba(32, 18, 63, 0.22);
 }
 
 .project-image {
